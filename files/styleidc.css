@@ -1,0 +1,294 @@
+@charset "utf-8";
+/*Designed by Jaison Jacob, IDC, IIT Bombay. Date: 12-4-2013*/
+
+/* Global reset
+   http://meyerweb.com/eric/tools/css/reset/ 
+*****************************************************************/
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+    text-decoration: none;
+    color: #222;
+}
+
+html { font-size: 62.5%; }
+body { font-size: 1em;}
+
+/*------------------------------------------Format text--------------------------------------------------*/
+h1 { 
+
+    font-size: 3em; 
+    font-family: 'Roboto Slab', serif; 
+    line-height: 75px; padding: 30px; 
+    color:#ffffff;
+    font-weight: 400;
+    
+}
+
+h1 a:hover { font-family: 'Roboto Slab', serif; text-decoration: none; color: #27B3CF; }
+ 
+h2 { font-family: 'Roboto Slab', serif; font-size:700%; padding: 10px; line-height: 75px; color:#9EBCE9;}
+
+h3 { font-family: 'Roboto Slab', serif; font-size: 50px; }
+h4 { font-family: 'Roboto Slab', serif; padding: 3px; margin: 5px 0 0 0; }
+
+h4 a:hover { text-decoration: none; }
+p{color: #E6E6E6;}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/* Basic Styles */
+
+nav {
+
+    height: 60px;
+    width: 100%;
+    background: #222;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    position: relative;
+}
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+   min-width: 600px;
+    max-width: 62%;
+    height: 50px;
+}
+nav li {
+    display: inline;
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    text-shadow: 1px 1px 0px #283744;
+}
+
+nav li a {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+    border-right: 0;
+}
+nav a:hover, nav a:active {
+    background-color: #27B3CF;
+}
+nav a#pull {
+    display: none;
+}
+
+@media only screen and (max-width : 600px) {
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+        /*===*/
+        width: 100%;
+        /*display: block;*/
+        height: auto;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        border-right: 1px solid #576979;
+    }
+    nav a#pull {
+        display: block;
+        background-color: #283744;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url(./nav-icon.png) no-repeat;
+        width: 30px;
+       /* height: 30px;===================deleted before */
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 25px;
+    }
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+
+
+/*------------------------------------------Layout--------------------------------------------------*/
+#menu{
+    width: 100%;
+    background: #222;
+    display: block;
+      position:fixed;  
+     z-index:100;
+
+}
+
+#wrapper{
+    width:100%;
+    margin: 0 auto;
+}
+#content{
+    width: 100%;
+    }
+/*#content article{
+    width:960px;
+}*/
+#started{
+    padding-top: 200px;
+    width:100%;
+    height:650px;
+    margin:0 auto;
+    text-decoration: none;
+    background:url(./bg.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size:cover;
+background-position: center;
+    display: block;
+    
+  
+}
+#attend{
+    padding-top: 200px;
+    width:100%;
+    height:650px;
+    margin:0 auto;
+    text-decoration: none;
+    background: #E7EBED;
+    
+    border-bottom: 1px solid #000000;
+
+
+    
+   
+}
+#workshop{
+    padding-top: 200px;
+    width:100%;
+    height:800px;
+    margin:0 auto;
+    text-decoration: none;
+    /*background: #0f6b87;*/
+   background: #4c5d67;
+   
+            
+           border-bottom: 1px solid #000000;
+}
+
+#contents{
+   padding-top: 200px;
+    width:100%;
+    height:850px;
+    margin:0 auto;
+    text-decoration: none;
+   
+    /*background: #1aa7cb;*/
+  background: #282828;
+  border-bottom: 1px solid #000000;
+  
+  
+    
+}
+#participate{
+   padding-top: 200px;
+    width:100%;
+    height:650px;
+    margin:0 auto;
+    text-decoration: none;
+    /*background: #eae5e1;*/
+     background: #282828;
+    border-bottom: 1px solid #000000;
+
+   
+}
+#about{
+   padding-top: 200px;
+    width:100%;
+    height:650px;
+    margin:0 auto;
+    text-decoration: none;
+   /*background: #eae5e1;*/
+    background: #E7EBED;
+ border-bottom: 1px solid #000000;
+   
+    
+}
+td{
+    width: 5%;
+    display: table-cell;
+    /*border-top: 1px solid #dddddd;*/
+    /*border-left: 1px solid #dddddd;*/
+    /*border-right: 1px solid #dddddd;*/
+    /*border-bottom: 1px solid #dddddd;*/
+    border-collapse: separate;
+    padding: 10px;
+    border-spacing: 0px;
+    vertical-align:top;
+
+}
+
+.table th {
+    padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+border-top: 0px;
+
+
+}
+
+td, th{
+    display: table-cell;
+}
+table{
+    border-spacing: 0;
+    border-color: gray; 
+  -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+  
+}

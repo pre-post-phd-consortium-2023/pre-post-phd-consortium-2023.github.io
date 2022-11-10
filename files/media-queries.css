@@ -1,0 +1,80 @@
+@media screen and (min-width: 1200px)     {
+	html { /*font-size: 120%; */
+    font-size: 100%;}
+    h1 { font-size: 60px; padding: 1px;  line-height: 60px;}
+	h2 { font-size: 24px; padding: 1px; line-height: 26px; }
+	h3 { font-size: 20px; padding: 1px; }
+	h4 { font-size: 13px; padding: 1px; }
+	#started{padding-bottom: 250px; height: 100%;}
+	#attend{padding-bottom: 250px; height: 100%;}
+	#workshop{padding-bottom: 250px; height: 100%;}
+	#contents{padding-bottom: 250px; height: 100%;}
+	#participate{padding-bottom: 250px; height: 100%;}
+	#about{padding-bottom: 250px; height: 100%;}
+}
+@media screen and (max-width: 1200px) 	{
+	/*html { font-size: 120%; }*/
+    html { font-size: 100%; }
+	h1 { font-size: 50px; padding: 1px;  line-height: 60px;}
+	h2 { font-size: 24px; padding: 1px; line-height: 24px; }
+	h3 { font-size: 20px; padding: 1px; }
+	h4 { font-size: 13px; padding: 1px; }
+	#started{padding-top:200px; padding-bottom: 200px; height: 100%;}
+	#attend{padding-top:200px; padding-bottom: 200px; height: 100%;}
+	#workshop{padding-top:200px; padding-bottom: 200px; height: 100%;}
+	#contents{padding-top:200px; padding-bottom: 200px; height: 100%;}
+	#participate{padding-top:200px; padding-bottom: 200px; height: 100%;}
+	#about{padding-top:200px; padding-bottom: 200px; height: 100%;}
+	
+}
+@media screen and (max-width: 700px)     {
+	/*html { font-size: 120%; }*/
+    html { font-size: 80%; }
+	h1 { font-size: 50px; padding: 1px;  line-height: 40px;}
+	h2 { font-size: 24px; padding: 1px; line-height: 24px; }
+	#started{padding-top: 50px; padding-bottom: 50px; height: 100%;}
+	#attend{padding-top: 50px; padding-bottom: 50px; height: 100%;}
+	#workshop{padding-top: 50px; padding-bottom: 50px; height: 100%;}
+	#contents{padding-top: 50px; padding-bottom: 50px; height: 100%;}
+	#participate{padding-top: 50px; padding-bottom: 50px; height: 100%;}
+	#about{padding-top: 50px; padding-bottom: 50px; height: 100%;}
+}
+
+@media screen and (max-width: 600px) 	{
+	html { font-size: 120%; }
+h1 { font-size: 3em; padding: 1px;  line-height: 40px;}
+	h2 { font-size: 16px; padding: 1px; line-height: 16px; }
+	h3 { font-size: 20px; padding: 1px; }
+	h4 { font-size: 13px; padding: 1px; }
+	nav a { display: block; float: left; padding: 10px; }
+	body { font-size: 12px; }
+	#navigation{width: 80%;}
+	#started{padding-bottom: 50px; height: 100%;}
+	#attend{padding-bottom: 50px; height: 100%;}
+	#workshop{padding-bottom: 50px; height: 100%;}
+	#contents{padding-bottom: 50px; height: 100%;}
+	#participate{padding-bottom: 50px; height: 100%;}
+	#about{padding-bottom: 50px; height: 100%;}
+	
+}
+@media screen and (max-width: 500px) 	{
+	html { font-size: 80%; }
+    #started{padding-bottom: 50px; height: 100%;}
+    #attend{padding-bottom: 50px; height: 100%;}
+	#workshop{padding-bottom: 50px; height: 100%;}
+	#contents{padding-bottom: 50px; height: 100%;}
+	#participate{padding-bottom: 50px; height: 100%;}
+	#about{padding-bottom: 50px; height: 100%;}
+}
+@media screen and (max-width: 300px) 	{
+	html { font-size: 70%; }
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}*/
+/*Styles for screen 600px and lower=========================== navigation*/
+/*Styles for screen 600px and lower*/
+
